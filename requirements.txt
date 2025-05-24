@@ -2,8 +2,10 @@
 # The Python Worker is managed by Azure Functions platform
 # Manually managing azure-functions-worker may cause unexpected issues
 
-azure-functions
-Pillow
-imagehash
-sendgrid
-opencv-python
+azure-functions==1.18.0
+Pillow==10.2.0
+imagehash==4.3.1
+sendgrid==6.10.0
+opencv-python==4.8.1
+azure-storage-blob==12.19.0
+#azure-ai-vision==0.15.1  # Uncomment if needed after testing

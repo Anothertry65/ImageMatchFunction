@@ -1,6 +1,12 @@
 {
   "version": "2.0",
   "logging": {
+    "logLevel": {
+      "default": "Warning",
+      "Host": "Warning",
+      "Function": "Error",
+      "Azure.Storage.Queues": "Warning"
+    },
     "applicationInsights": {
       "samplingSettings": {
         "isEnabled": true,
